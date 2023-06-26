@@ -2,7 +2,7 @@ def step1() {
     echo 'Running Step 1'
     // Add your actual implementation code for Step 1 here
     // For example:
-    sh 'echo "sh "Build"'
+    sh 'echo "Build"'
     sh "mvn clean package"
 }
 
